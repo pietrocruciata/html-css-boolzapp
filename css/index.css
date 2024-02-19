@@ -1,0 +1,130 @@
+/*RESET*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+menu {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-none {
+    display: none;
+}
+
+/*LAYOUT*/
+
+.img-size {
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.icon-size {
+    font-size: 25px;
+}
+
+.icon-font {
+    font-size: 40px;
+    background-color: white;
+    color: lightskyblue;
+    border-radius: 20px;
+}
+
+
+/*COLS*/
+.col-1h {
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.col-2h {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.col-3h {
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    margin: 12px;
+    gap: 40px;
+    padding-left: 20px;
+    padding: 10px;
+}
+
+.col-4h {
+    width: calc(100% - 20px);
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+/*CARDS*/
+.card.img {
+    width: 30%;
+}
+
+.card-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 20px;
+
+}
+
+
+/*CONTAINERS*/
+
+.container {
+    height: 100vh;
+}
+
+.container-aside {
+    width: 30%;
+    height: 100vh;
+}
+
+
+/*CSS-FLEX*/
+.d-flex {
+    display: flex;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+/*COLOR BG AND COLOR*/
+
+.bg-lightgrey {
+    background-color: rgb(247, 247, 247);
+}
+
+.bg-lightblue {
+    background-color: lightskyblue;
+}
+
+.c-bluesky {
+    color: lightskyblue;
+}
+
+.c-grey {
+    color: grey;
+}
