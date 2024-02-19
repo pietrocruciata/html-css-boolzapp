@@ -39,6 +39,43 @@ menu {
     border-radius: 20px;
 }
 
+.message-bg-green{
+    background-color: lightgreen;
+    width: 60%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.message-bg-white{
+    background-color: white;
+    width: 60%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.finger-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.write-text{
+   
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.icon-write{
+    display: none;
+}
+
 
 /*COLS*/
 .col-1h {
@@ -70,6 +107,29 @@ menu {
     border-bottom: 1px solid lightgrey;
 }
 
+.col-1c{
+    width: 100%;
+}
+
+.col-2c{
+    width: 100%;
+    padding: 20px;
+    justify-content: flex-end;
+    
+}
+
+.col-3c{
+    width: 100%;
+}
+
+.col-4c{
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+
+
+
 /*CARDS*/
 .card.img {
     width: 30%;
@@ -85,16 +145,42 @@ menu {
 
 }
 
+.card-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: grey;
+    display: none;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
 
 /*CONTAINERS*/
 
-.container {
+.wrapper {
     height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 
 .container-aside {
     width: 30%;
-    height: 100vh;
+    height: 100%;
+}
+
+.container-central{
+    width: 100%;
+
 }
 
 
@@ -127,4 +213,23 @@ menu {
 
 .c-grey {
     color: grey;
+}
+.containe-img{
+    background-image: url(../img/mine.jpg);
+    height: 87vh;
+}
+
+/*MEDIA QUERYS*/
+
+/*TABLET*/
+@media (min-width:780px){
+    .icon-write{
+        display: flex;
+    }
+
+    .card-icon{
+        display: flex;
+    }
+
+
 }
