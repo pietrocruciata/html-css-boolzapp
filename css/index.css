@@ -174,7 +174,7 @@ menu {
 }
 
 .container-aside {
-    width: 30%;
+    width: 430px;
     height: 100%;
 }
 
@@ -231,5 +231,17 @@ menu {
         display: flex;
     }
 
+ 
 
+
+}
+
+@media (min-width:1080px) {
+    .d-none{
+        display: flex;
+    }
+    .container-central{
+        width: 70%;
+    }
+    
 }
