@@ -22,8 +22,8 @@ menu {
 
 
 .wrapper {
-    background: rgb(217,219,215);
-background: linear-gradient(0deg, rgba(217,219,215,1) 84%, rgba(78,147,137,1) 84%);
+    background: rgb(217, 219, 215);
+    background: linear-gradient(0deg, rgba(217, 219, 215, 1) 84%, rgba(78, 147, 137, 1) 84%);
 }
 
 /*LAYOUT*/
@@ -34,10 +34,20 @@ background: linear-gradient(0deg, rgba(217,219,215,1) 84%, rgba(78,147,137,1) 84
     border-radius: 50%;
 }
 
+.col-2h .card-img {
+    display: flex;
+    background-color: white;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
 
 .icon-font {
-    font-size: 40px;
-    background-color: white;
+    width: 100%;
+    display: flex;
+    padding: 13px;
+    font-size: 25px;
     color: lightskyblue;
     border-radius: 20px;
 }
@@ -80,17 +90,17 @@ background: linear-gradient(0deg, rgba(217,219,215,1) 84%, rgba(78,147,137,1) 84
     display: none;
 }
 
-.bb-lightgrey{
+.bb-lightgrey {
     border-bottom: 1px solid lightgrey;
     text-align: center;
     padding: 5px;
 }
 
-.br-lightgrey{
+.br-lightgrey {
     border-right: 1px solid lightgrey;
 }
 
-.side-tablet{
+.side-tablet {
     width: 100%;
 }
 
@@ -175,6 +185,9 @@ background: linear-gradient(0deg, rgba(217,219,215,1) 84%, rgba(78,147,137,1) 84
     padding-right: 20px;
 }
 
+input {
+    border: none;
+}
 
 /*CONTAINERS*/
 
@@ -205,7 +218,8 @@ background: linear-gradient(0deg, rgba(217,219,215,1) 84%, rgba(78,147,137,1) 84
     flex-direction: column;
 
 }
-.container-tablet{
+
+.container-tablet {
     background-color: white;
     width: 80px;
     display: none;
@@ -272,8 +286,8 @@ background: linear-gradient(0deg, rgba(217,219,215,1) 84%, rgba(78,147,137,1) 84
     .wrapper {
         padding: 30px 0;
     }
-    
-    .container-tablet{
+
+    .container-tablet {
         display: flex;
     }
 
@@ -291,7 +305,7 @@ background: linear-gradient(0deg, rgba(217,219,215,1) 84%, rgba(78,147,137,1) 84
         width: 70%;
     }
 
-    .container-tablet{
+    .container-tablet {
         display: none;
     }
 
